@@ -111,5 +111,16 @@ Workspace - H - SMC is a secure, private dashboard application for managing cred
 
 ---
 
+## Unit Testing
+
+A built-in test suite has been added using CodeIgniter 3's Unit Testing class. This validates the core Model data structures and returns.
+
+**How to run the tests:**
+1. Make sure your local server is running.
+2. Open your browser and navigate to: `http://localhost/your-app-folder/index.php/tests` (adjust `your-app-folder` to your local folder name, usually `SecretApp` or `workspace-h`).
+3. The page will display a table showing the Passed/Failed status of each unit test.
+
+---
+
 ## License
 Private / Proprietary.
