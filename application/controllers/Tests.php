@@ -20,6 +20,9 @@ class Tests extends CI_Controller {
         // Setup simple UI for unit tests
         echo '<h2>Workspace - H - SMC : Unit Testing Suite</h2>';
 
+        // 0. Simple Math Test
+        $this->unit->run(1 + 1, 2, 'Simple Math Test');
+        
         // ---------------------------------------------------------
         // 1. Test Credential Model Type Returns
         // ---------------------------------------------------------
@@ -41,8 +44,8 @@ class Tests extends CI_Controller {
         // ---------------------------------------------------------
         // 3. Test Task Model
         // ---------------------------------------------------------
-        $test_name = 'Test TaskModel get_all() returns an Array';
-        $result = $this->TaskModel->get_all();
+        $test_name = 'Test TaskModel get_projects() returns an Array';
+        $result = $this->TaskModel->get_projects();
         $this->unit->run(is_array($result), true, $test_name);
 
         // Display results
