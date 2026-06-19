@@ -1,6 +1,5 @@
 # Workspace - H - SMC
 
-![Workspace - H - SMC Dashboard](uploads/screenshot.png)
 ![Kanban Board](uploads/screenshot_kanban.png)
 
 Workspace - H - SMC is a secure, private dashboard application for managing credentials, tasks, and notes with an elegant dark-themed UI. Built with CodeIgniter 3.
