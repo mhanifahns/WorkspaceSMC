@@ -1,4 +1,5 @@
 <?php
+// Created by Hanif
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class IncomeModel extends CI_Model {
