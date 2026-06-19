@@ -49,6 +49,11 @@ Workspace - H - SMC is a secure, private dashboard application for managing cred
 4. **Run the App**
    Open your browser and navigate to `http://localhost/workspace-h`.
 
+5. **Login Credentials**
+   Use the following default credentials to access the dashboard:
+   - **Username:** `admin`
+   - **Password:** `admin`
+
 ---
 
 ## Installation Guide (Ubuntu Linux)
@@ -108,6 +113,11 @@ Workspace - H - SMC is a secure, private dashboard application for managing cred
 
 6. **Run the App**
    Open your browser and navigate to your server's IP address or domain: `http://your-server-ip/workspace-h`.
+
+7. **Login Credentials**
+   Use the following default credentials to access the dashboard:
+   - **Username:** `admin`
+   - **Password:** `admin`
 
 ---
 
